@@ -1,0 +1,30 @@
+Due on 9/18, submit in HARDCOPY
+
+1. (30%) For each scenario, choose ONLY ONE BEST out of confidentiality, integrity and availability, and explain the reason for your choice, and then describe a defensive measure to either prevent or detect the security violation.
+(a) John copies Mary's homework.
+(b) Paul crashes Linda's system.
+(c) Carol changes the amount of Angelo's check from $100 to $1000.
+(d) Gina forges Roger's signature on a deed.
+(e) Rhonda deletes all web services from unversity's web servers.
+(f) Henry spoofs Julie's IP address to gain access to her computer.
+
+2. (20%) Install and run Wireshark. Browse http://cs.txstate.edu/~qg11, and use Wireshark to capture the http request packet and the following http response packet. Then show the information below.
+(a) Use "http" as filter in wireshark and show the screenshot of the first two captured http packets when browsing the website.
+(b) What are the source and destination in the MAC header?
+(c) What are the source and destination in the IP header?
+(d) What are the source and destination in the TCP header?
+(e) What are the http request and response in the HTTP payload?
+
+3. (20%) Use Wireshark to open the attached "hw1.eq2.pcapng" that includes the sniffed traffic when a user tried to browse a website and download a text file.
+(a) What is the IP address of the website?
+(b) What are the web URLs the user successfully browsed in order?
+(c) What is the content of the text file in the traffic?
+
+4. (10%) Install NMap and install CTF virtual box from http://fuxi.cs.txstate.edu/~download/tools/ctf.vbox/
+(a) Do NOT run the CTF virtual box. Identify the IP address of your own computer, and then use NMap to probe your own computer to identify ALL open services in your computer. Show the screen shot of the output of NMap.
+(b) NOW follow the instructions in readme.txt on the website to run the CTF virtual box. Use NMap to probe your own computer again to identify ALL open services in your computer. Show the screen shot of the outout of NMap.
+Note: You only need to run the vbox and leave it there. You do not need to login to the vbox. After running the vbox, browse http://127.0.0.1:8080
+
+5. (10%) Run the CTF virtual box, and solve the problem "The Race". Show the screen shot when you catch the flag. You may read the partial solution in the hint.
+
+6. (10%) Run the CTF virtual box, and solve the problem "Gatta Catch Em All". Show the screen shot when you catch the flag. You may read the partial solution in the hint.
