@@ -1,0 +1,38 @@
+Due on 11/06, submit in HARDCOPY
+
+1. (15%) A computer system provides protection using the Bell-LaPadula model. How would a virus spread in the following two scenarios?
+(a) The virus were placed at system low (the compartment being dominated by all other compartments).
+(b) The virus w  ere placed at system high (the compartment dominating all other compartments).
+
+2. (15%) A computer system provides protection using the Biba model. How would a virus spread in the following two scenarios?
+(a) The virus were placed at system low (the compartment being dominated by all other compartments).
+(b) The virus were placed at system high (the compartment dominating all other compartments).
+
+3. (10%) Convert the following script to a normal html without the javascript script. Copy and paste the converted html in your submission.
+
+<script>
+document.write(unescape('%3C%68%74%6D%6C%3E%0A%3C%74%69%74%6C%65%3E%45%6E%63%72%79%70%74%65%64%20%48%54%4D%4C%3C%2F%74%69%74%6C%65%3E%0A%3C%62%6F%64%79%3E%48%65%6C%6C%6F%20%77%6F%72%6C%64%21%3C%2F%62%6F%64%79%3E%0A%3C%2F%68%74%6D%6C%3E'));
+</script>
+
+4. (20%) The following line of java code have the SQL injection vulnerability, where id is an input.
+
+String query = "select name from students where id = " + id + ";";
+
+(a) Show an exploitation that always makes a true condition of the query.
+
+(b) If id is of type integer, discuss two security methods to prevent the injection.
+
+(c) If id is of type char, the query string will be the following. Show an exploitation that always makes a true condition of the query.
+
+String query = "select name from students where id = '" + id + "';";
+
+5. (10%) DoS attacks could target computing capacity by exhausting processes and CPU time. In Linux, we can use the command "ulimit" to stop this kind of DoS attacks. Show and discuss the two options of "ulimit" that are needed to stop the attack by limiting processes and CPU time?
+
+6. (10%) File checksum is often used to check if a file was maliciously modified.
+(a) In Linux, what is the command to get a sha256 checksum of a file?
+(b) What is the sha256 checksum of "hw4.txt"?
+(c) Add a space to any where in "hw4.txt", and recompute and show the new sha256 checksum of "hw4.txt"
+
+7. (10%) Run the CTF virtual box, read the partial solution of "Is it really just a picture". Show the flag.
+
+8. (10%) Run the CTF virtual box, read the partial solution of "PHP overwrite". Show the flag.

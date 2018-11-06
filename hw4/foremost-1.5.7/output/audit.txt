@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Nov  5 22:38:37 2018
+Invocation: foremost -v -i ../Spurs.jpg 
+Output directory: /mnt/d/gitHub/CybersecurityClass/hw4/foremost-1.5.7/output
+Configuration file: /mnt/d/gitHub/CybersecurityClass/hw4/foremost-1.5.7/foremost.conf
+------------------------------------------------------------------
+File: ../Spurs.jpg
+Start: Mon Nov  5 22:38:38 2018
+Length: 287 KB (294866 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000550.pdf 	      12 KB 	     281616 	 
+Finish: Mon Nov  5 22:38:38 2018
+
+1 FILES EXTRACTED
+	
+pdf:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Nov  5 22:38:38 2018
